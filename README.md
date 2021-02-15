@@ -60,7 +60,7 @@ for output in outputs:
 
 | Notebook                 |                                                                                 |
 |--------------------------|---------------------------------------------------------------------------------|
-| Simple Version      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hooshvare/parsgpt/blob/master/notebooks/how_to_fine_tune_gpt2.ipynb) |
+| Simple Version      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hooshvare/parsgpt/blob/master/notebooks/Persian_Poetry_FineTuning.ipynb) |
 
 
 ## Examples - Models
