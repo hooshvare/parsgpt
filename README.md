@@ -1,15 +1,6 @@
-<h1 align="center">ParsGPT</h1>
+<h1 align="center">ParsGPT 🦁</h1>
 
 <br/><br/>
-
-- [How to use](#how-to-use)
-  - [Installing requirements](#installing-requirements)
-  - [How to generate using pipeline](#how-to-generate-using-pipeline)
-- [GPT2 Visualization](#gpt2-visualization)
-- [How to fine-tune](#how-to-fine-tune)
-  - [Examples - Models](#examples---models)
-- [Citation](#citation)
-- [Questions?](#questions)
 
 
 # How to use
@@ -60,26 +51,22 @@ for output in outputs:
 
 This visualization is powered by [Ecco](https://github.com/jalammar/ecco) (an interactive language modeling visualization).
 
-| Notebook |  |
-|-|-|
+|      Notebook      |                                                                                                                                                                                                 |
+|:------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | Ecco Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hooshvare/parsgpt/blob/master/notebooks/Persian_GPT2_Visualization.ipynb) |
-
-
 # How to fine-tune
 
-| Notebook |  |
-|-|-|
+| Notebook       |                                                                                                                                                                                                |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Simple Version | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hooshvare/parsgpt/blob/master/notebooks/Persian_Poetry_FineTuning.ipynb) |
-
 
 ## Examples - Models
 If you fine-tuned gpt2-fa on your dataset, share it with us. All things you need to do, create a pull request and share yours with us. We are looking forward to it.
 
-| Model | Description | How to Use |
-|:-:|:-:|:-:|
-| [HooshvareLab/gpt2-fa-poetry](https://huggingface.co/HooshvareLab/gpt2-fa-poetry) | The model was fine-tuned on [ChronologicalPersianPoetryDataset](https://github.com/aghasemi/ChronologicalPersianPoetryDataset). | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hooshvare/parsgpt/blob/master/notebooks/Persian_Poetry_GPT2.ipynb) |
-| [HooshvareLab/gpt2-fa-comment](https://huggingface.co/HooshvareLab/gpt2-fa-comment) | The model can generate comments based on your aspects, and the model was fine-tuned on [persiannlp/parsinlu]( https://github.com/persiannlp/parsinlu ). Currently, the model only supports aspects in the food and movie scope. |  |
-
+|                                        Model                                        |                                                                                                           Description                                                                                                           |                                                                                        How to Use                                                                                        |
+|:-----------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  [HooshvareLab/gpt2-fa-poetry](https://huggingface.co/HooshvareLab/gpt2-fa-poetry)  |                                                 The model was fine-tuned on [ChronologicalPersianPoetryDataset](https://github.com/aghasemi/ChronologicalPersianPoetryDataset).                                                 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hooshvare/parsgpt/blob/master/notebooks/Persian_Poetry_GPT2.ipynb) |
+| [HooshvareLab/gpt2-fa-comment](https://huggingface.co/HooshvareLab/gpt2-fa-comment) | The model can generate comments based on your aspects, and the model was fine-tuned on [persiannlp/parsinlu]( https://github.com/persiannlp/parsinlu ). Currently, the model only supports aspects in the food and movie scope. |                                                                                                                                                                                          |
 
 # Citation
 
@@ -88,7 +75,7 @@ Please cite in publications as the following:
 ```bibtex
 @misc{ParsGPT2,
   author = {Hooshvare Team},
-  title = {ParsGPT2 the Persian version of GPT2},
+  title = {ParsGPT2, a Persian version of GPT2},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
